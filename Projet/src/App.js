@@ -96,12 +96,21 @@ function App() {
       </div>
 
       <div className="container-fluid NewsLatter">
-        <div className="row">
+        <div className="row padding">
           <div className="col-lg-5 offset-1">
             <h1><span>Subscribe To</span> Our Newsletter</h1>
           </div>
           <div className="col-lg-5">
-            <input placeholder="Your email..."></input> <button> Subscribe </button>
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-9">
+                  <input placeholder="Your email..."></input>
+                </div>
+                <div className="col-3">
+                  <button> Subscribe </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

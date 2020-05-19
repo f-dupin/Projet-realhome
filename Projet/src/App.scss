@@ -188,7 +188,7 @@ Header {
             font-family: Raleway-Medium;
             font-size: 20px;
             font-weight: 500;
-            line-height: 65px;
+            margin-top: 25px;
         }
         p {
             color: #797979;
@@ -208,9 +208,12 @@ Header {
 }
 .NewsLatter {
     background-color: #f3f2f2;
-    div {
+    .padding {
         padding-top: 75px;
         padding-bottom: 75px;
+    }
+    div {
+
         div {
             h1 {
                 font-family: Raleway-Bold;
@@ -227,7 +230,7 @@ Header {
             input {
                 line-height: 50px;
                 border: 2px solid #e6e6e6;
-                width: 71%;
+                width: 100%;
                 border-radius: 3px;
                 background-color: #ffffff; 
                 display: inline-block;
@@ -241,11 +244,9 @@ Header {
                 padding-left: 20px;
             }
             button {
-                margin-left: 4%;
                 border-radius: 3px;
                 border: 0px;
                 background-color: #e2574c;
-                width: 20%;
                 display: inline-block;
                 font-family: Raleway-Light;
                 color: #ffffff;
@@ -253,6 +254,8 @@ Header {
                 font-weight: 700;
                 line-height: 60px;
                 text-transform: uppercase;
+                padding-left: 25px;
+                padding-right: 25px;
             }
         }
     }
@@ -278,6 +281,7 @@ footer {
 }
 .imageFooter {
     align-self: center;
+    width: 100%;
 }
 .marginFooter {
     margin-top : 80px;
