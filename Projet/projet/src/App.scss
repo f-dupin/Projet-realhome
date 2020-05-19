@@ -1,0 +1,390 @@
+@import './Police/Police.scss';
+
+Header {
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.2);
+    background-color: #ffffff;
+}
+.Menu {
+    margin-top: 11px;
+    font-size: 30px;
+    margin-right: 25px;
+}
+#Logo {
+    text-align: left;
+    margin-top: 22px;
+    display: flex;
+}
+#Social{
+    margin-bottom: 25px;
+    div {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 12px;
+        div {
+            border: 2px solid #f2f2f2;
+            border-radius: 100%;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            
+        }
+        .Reseau-sociaux {
+            padding-bottom: 10px;
+            text-align: center;
+        }
+    }
+}
+.iconn {
+    margin-left: 45%;
+    width: 5%;
+}
+.leLogo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    align-self: center;
+}
+.leMenu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+.nav {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-right: 0px !important;
+    p {
+        text-align: center;
+        width: 100%;
+        font-family: Playfair-Display;
+        color: #3c3c3c;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
+.nav:hover {
+    padding-top: 30px;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding-right: 0px;
+}
+#Fil-arrianne {
+    margin-top: 70px;
+    color: #3c3c3c;
+    font-family: Raleway-Bold;
+        span {
+            font-family: Raleway-Light;
+            color: #797979;
+            
+            span {
+                color: #e2574c;
+            }
+    }
+}
+#Titre {
+    font-family: Raleway-Medium;
+    font-weight: 500;
+    color: #3c3c3c;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: 30px;
+    span {
+        color: #3c3c3c;
+        font-family: Raleway-Light;
+        font-weight: 300;
+    }
+}
+.Texte {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    div {
+        img {
+           width: 100%;
+        }
+        p {
+            font-family: Playfair-Display;
+            color: #797979;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27px;
+        }
+    }
+}
+.section2 {
+    background-color: #f6f6f6;
+    text-align: center;
+}
+.Article {
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .IconArticle {
+        font-size: 26px;
+        svg {
+            width: 100%;
+            color: #3c3c3c;
+        } 
+    } 
+    div{
+          h2 {
+            width: 100%;
+            font-family: Raleway-Medium;
+            color: #3c3c3c;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 50px;
+          }
+          p {
+            width: 100%;
+            font-family: Playfair-Display;
+            color: #797979;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+          }
+    }
+}
+.section3 {
+    .OurTeam {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    div {
+        div {
+            h1 {
+                color: #242424;
+                font-family: Raleway-Medium;
+                font-size: 37px;
+                font-weight: 500;
+                line-height: 65px;
+                span {
+                    font-family: Raleway-Light;
+                    font-weight: 300;
+                }
+            }
+            p {
+                color: #e2574c;
+                font-family: Playfair-Display;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 65px;
+                text-decoration: underline;
+                text-align: right;
+            }
+        }
+    }
+}
+.vignette {
+    padding: 30px;
+    padding-bottom: 100px;
+    .vignetta {
+        border: 1px solid #e6e6e6;
+        h3 {
+            width: 100%;
+            text-align: center;
+            color: #000000;
+            font-family: Raleway-Medium;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 65px;
+        }
+        p {
+            color: #797979;
+            font-family: Playfair-Display;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.28px;
+            text-decoration: none;
+            width: 100%;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
+.NewsLatter {
+    background-color: #f3f2f2;
+    div {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        div {
+            h1 {
+                font-family: Raleway-Bold;
+                font-weight: 700;
+                color: #3c3c3c;
+                font-size: 37px;
+                line-height: 50px;
+                text-align: left;
+                span {
+                    font-family: Raleway-Light;
+                    font-weight: 300;
+                }
+            }
+            input {
+                line-height: 50px;
+                border: 2px solid #e6e6e6;
+                width: 71%;
+                border-radius: 3px;
+                background-color: #ffffff; 
+                display: inline-block;
+            }
+            input::placeholder {
+                font-family: Raleway-Light;
+                color: #c2c1c1;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 60px;
+                padding-left: 20px;
+            }
+            button {
+                margin-left: 4%;
+                border-radius: 3px;
+                border: 0px;
+                background-color: #e2574c;
+                width: 20%;
+                display: inline-block;
+                font-family: Raleway-Light;
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 60px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #303030;
+    padding: 0px;
+    div {
+        padding: 0px;
+    }
+}
+
+.socialFooter {
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 20px;
+}
+.imageFooter {
+    align-self: center;
+}
+.marginFooter {
+    margin-top : 80px;
+    margin-bottom: 80px;
+}
+.textFooter {
+    h3 {
+        color: #ffffff;
+        font-family: Raleway-Light;
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+    ul {
+        padding: 0px;
+        li {
+            color: #ffffff;
+            font-family: Playfair-Display;
+            list-style: none;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+    p {
+        color: #ffffff;
+        font-family: Playfair-Display;
+        list-style: none;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    a {
+        font-family: Playfair-Display;
+        font-size: 15px;
+        color: #e2574c !important;
+        font-weight: 400;
+        line-height: 23px;
+        text-decoration: underline !important;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .Texte {
+        div {
+            img {
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .NewsLatter {
+        div {
+            div {
+                h1 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .Texte {
+        div {
+            img {
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .OurTeam {
+        div {
+            h1 {
+                text-align: center;
+            }
+            p {
+                text-align: center !important;
+            }
+        }
+    }
+    .NewsLatter {
+        div {
+            div {
+                h1 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .NewsLatter {
+        div {
+            div {
+                button {
+                    margin-left: 4%;
+                    border-radius: 3px;
+                    border: 0px;
+                    background-color: #e2574c;
+                    width: 20%;
+                    display: inline-block;
+                    font-family: Raleway-Light;
+                    color: #ffffff;
+                    font-size: 10px;
+                    font-weight: 700;
+                    line-height: 60px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+       
+    }
+}
