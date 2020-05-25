@@ -45,7 +45,7 @@ export class Menu extends Component {
                             <div className={"col-lg-1 nav d-lg-flex "+this.state.leDisplay}>
                             <p>Contacts</p>
                             </div>
-                            <div className={"col-lg-2 d-lg-flex "+this.state.leDisplay}>
+                            <div className={"col-lg-2 uneDiv d-lg-flex "+this.state.leDisplay}>
                             <div className="container-fluid">
                                 <div id="Social" className="row">
                                 <div className="col-3">

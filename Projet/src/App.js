@@ -46,16 +46,16 @@ function App() {
           <div className="col-sm-10 offset-1">
             <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-6">
                 <Article IconArticle={<FontAwesomeIcon icon={faGlobeAmericas}></FontAwesomeIcon>} TitreArticle="Whole World" TexteArticle="Proin umcorper urna et felisstibulum iaculis lacinia est. Proin dictum elem entum velit fusce euismod. Aenean commodo ligula eget dolor."></Article>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-6">
                 <Article IconArticle={<FontAwesomeIcon icon={faBriefcase}></FontAwesomeIcon>} TitreArticle="Confidentially" TexteArticle="Proin umcorper urna et felisstibulum iaculis lacinia est. Proin dictum elem entum velit fusce euismod. Aenean commodo ligula eget dolor."></Article>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-6">
                 <Article IconArticle={<FontAwesomeIcon icon={faImages}></FontAwesomeIcon>} TitreArticle="Good Previews" TexteArticle="Proin umcorper urna et felisstibulum iaculis lacinia est. Proin dictum elem entum velit fusce euismod. Aenean commodo ligula eget dolor."></Article>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-6">
                 <Article IconArticle={<FontAwesomeIcon icon={faArchive}></FontAwesomeIcon>} TitreArticle="Confidentially" TexteArticle="Proin umcorper urna et felisstibulum iaculis lacinia est. Proin dictum elem entum velit fusce euismod. Aenean commodo ligula eget dolor."></Article>
               </div>
             </div>
@@ -77,16 +77,16 @@ function App() {
           <div className="col-sm-10 offset-1">
             <div className="container-fluid">
               <div className="row">
-                <div className="col-lg-3 vignette">
+                <div className="col-lg-3 col-md-6 vignette">
                   <Vignette image={team1} Nom="Maria Spilberg" Poste="Manager"></Vignette>
                 </div>
-                <div className="col-lg-3 vignette">
+                <div className="col-lg-3 col-md-6 vignette">
                   <Vignette image={team2} Nom="Stan Barnard" Poste="Agent"></Vignette>
                 </div>
-                <div className="col-lg-3 vignette">
+                <div className="col-lg-3 col-md-6 vignette">
                   <Vignette image={team3} Nom="Phillip Morris" Poste="Agent"></Vignette>
                 </div>
-                <div className="col-lg-3 vignette">
+                <div className="col-lg-3 col-md-6 vignette">
                   <Vignette image={team4} Nom="Andy Zuckerberg" Poste="Account Manager"></Vignette>
                 </div>
               </div>
@@ -103,10 +103,10 @@ function App() {
           <div className="col-lg-5">
             <div className="container-fluid">
               <div className="row">
-                <div className="col-9">
+                <div className="col-8">
                   <input placeholder="Your email..."></input>
                 </div>
-                <div className="col-3">
+                <div className="col-4">
                   <button> Subscribe </button>
                 </div>
               </div>

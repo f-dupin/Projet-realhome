@@ -185,7 +185,7 @@ Header {
             width: 100%;
             text-align: center;
             color: #000000;
-            font-family: Raleway-Medium;
+            font-family: Raleway-Bold;
             font-size: 20px;
             font-weight: 500;
             margin-top: 25px;
@@ -215,6 +215,7 @@ Header {
     div {
 
         div {
+            text-align: right;
             h1 {
                 font-family: Raleway-Bold;
                 font-weight: 700;
@@ -244,6 +245,7 @@ Header {
                 padding-left: 20px;
             }
             button {
+                right: 0em;
                 border-radius: 3px;
                 border: 0px;
                 background-color: #e2574c;
@@ -325,6 +327,12 @@ footer {
     }
 }
 
+.uneDiv {
+    div {
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 991px) and (min-width: 768px) {
     .Texte {
         div {
@@ -336,6 +344,7 @@ footer {
     .NewsLatter {
         div {
             div {
+                text-align: center;
                 h1 {
                     text-align: center;
                 }
@@ -373,6 +382,7 @@ footer {
     .NewsLatter {
         div {
             div {
+                text-align: left;
                 button {
                     margin-left: 4%;
                     border-radius: 3px;
